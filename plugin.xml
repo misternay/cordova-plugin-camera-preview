@@ -6,8 +6,8 @@
   <description>Cordova plugin that allows camera interaction from HTML code. Show camera preview popup on top of the HTML.</description>
   <license>Apache 2.0</license>
   <keywords>cordova,phonegap,ecosystem:cordova,cordova-android,cordova-ios,android,ios,ionic,camera,cam,camera-preview,preview</keywords>
-  <repo>https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview.git</repo>
-  <issue>https://github.com/cordova-plugin-camera-preview/cordova-plugin-camera-preview/issues</issue>
+  <repo>https://github.com/misternay/cordova-plugin-camera-preview.git</repo>
+  <issue>https://github.com/misternay/cordova-plugin-camera-preview/issues</issue>
 
   <js-module src="www/CameraPreview.js" name="CameraPreview">
     <clobbers target="CameraPreview" />
@@ -23,7 +23,7 @@
     <source-file src="src/android/camera_theme.xml" target-dir="res/values" />
     <source-file src="src/android/camera_ids.xml" target-dir="res/values" />
 
-    <preference name="ANDROID_SUPPORT_LIBRARY_VERSION" default="26+"/>
+    <preference name="ANDROID_SUPPORT_LIBRARY_VERSION" default="19+"/>
     <framework src="com.android.support:exifinterface:$ANDROID_SUPPORT_LIBRARY_VERSION" />
 
     <config-file target="res/xml/config.xml" parent="/*">
